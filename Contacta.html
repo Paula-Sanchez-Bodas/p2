@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Estocolmo</title>
+    <link rel="stylesheet" href="css/Styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="text-center">LA MEJOR RUTA POR ESTOCOLMO</h1>
+        <nav class="barra-tareas">
+            <div class="container row">
+                <div class="col-xs-12 col-lg-3"><a href="index.html">Inicio</a></div>
+                <div class="col-xs-12 col-lg-3"><a href="Lugares.html">Puntos de interés</a></div>
+                <div class="col-xs-12 col-lg-3"><a href="Dias.html">4 días perfectos</a></div>
+                <div class="col-xs-12 col-lg-3"><a href="Contacta.html">Contacta con nosotros</a></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <div class="form-group mt-4">
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico: </label>
+                <input type="email" name="correo" id="correo" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono" class="form-control">
+            </div>
+            <div class="form-label">
+                <label for="pais">País:</label>
+                <select class="form-label mt-3" id="pais" required>
+                    <option selected disabled value="">Selecciona tu país</option>
+                    <option value="ES">España</option>
+                    <option value="FR">Francia</option>
+                    <option value="IT">Italia</option>
+                    <option value="AL">Alemania</option>
+                    <option value="SU">Suecia</option>
+                    <option value="DI">Dinamarca</option>
+                    <option value="NO">Noruega</option>
+                    <option value="I">Inglaterra</option>
+                    <option value="SUI">Suiza</option>
+                    <option value="Otro">Otra</option>
+                </select>    
+            </div>
+            <div class="form-group">
+                <label for="casilla">Acepto la política de privacidad</label>
+                <input type="checkbox" class="casilla" id="casilla">  
+            </div>
+            <div class="form-group mt-2">
+                <button class="btn btn-primary w-100 mt-2">Enviar</button>
+            </div>
+
+        </form>
+    </main>
+    <footer>
+        <div>
+            <h2>
+                Agencia de viajes "Ruta por el mundo"
+            </h2>
+            <address>
+                C/ Velázquez 32, Salamanca, 28001 Madrid
+            </address>
+            <p><small>copyrigth 2025 Paula Sánchez Bodas</small></p>
+        </div>
+    </footer>
+</body>
+</html>
